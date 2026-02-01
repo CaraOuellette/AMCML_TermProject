@@ -44,7 +44,7 @@ print("=" * 80)
 os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
 Path(os.environ["MPLCONFIGDIR"]).mkdir(parents=True, exist_ok=True)
 
-DATA_CSV = Path("master_dataset_ml_ready.csv")
+DATA_CSV = Path("master_dataset_ml_ready_labelled.csv")
 DATA_XLSX = Path("master_dataset_ml_ready.xlsx")
 
 if DATA_CSV.exists():
